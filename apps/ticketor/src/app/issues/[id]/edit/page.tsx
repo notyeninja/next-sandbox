@@ -1,5 +1,7 @@
-export default function IssueEdit() {
+const EditIssuePage = () => {
     return (
-        <div>This is Edit page for Issues</div>
+        <div>This is a edit issue page</div>
     )
-}
+};
+
+export default EditIssuePage;

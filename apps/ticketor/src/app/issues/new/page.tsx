@@ -1,7 +1,9 @@
-export default function NewIssue() {
+const NewIssuePage = () => {
     return (
         <div>
-            This is new issues page.
+            This is new issue page.
         </div>
     )
-}
+};
+
+export default NewIssuePage;
