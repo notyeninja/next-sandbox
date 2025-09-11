@@ -5,7 +5,7 @@
   "scripts": {
     "nx":"nx",
     "ticketor": "nx dev ticketor --port 4200",
-    "ticketor:prod": "nx serve ticketor --port 4200",
+    "ticketor:prod": "nx start ticketor --port 4200",
     "ticketor:build": "nx build ticketor"
   },
   "private": true,
