@@ -1,8 +1,10 @@
+import { PropsWithChildren } from "react";
+
 export const metadata = {
     title: 'Welcome to marketing'
 };
 
-export default function MarketingLayout({children}: {children: React.ReactNode}) {
+export default function MarketingLayout({children}: PropsWithChildren) {
     return (
         <div>
             <div>{children}</div>

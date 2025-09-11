@@ -1,6 +1,6 @@
-import React from "react";
+import { PropsWithChildren } from "react";
 
-export default function DashboardLayout({children}:{children: React.ReactNode}) {
+export default function DashboardLayout({children}: PropsWithChildren) {
     return (
         <div>
             <div>{children}</div>
