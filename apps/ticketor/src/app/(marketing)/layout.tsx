@@ -1,4 +1,5 @@
 import { PropsWithChildren } from "react";
+import { CopyrightYear } from "../components/CopyrighYear";
 
 export const metadata = {
     title: 'Welcome to marketing'
@@ -10,7 +11,7 @@ export default function MarketingLayout({children}: PropsWithChildren) {
             <div>{children}</div>
             <footer className="bg-fuchsia-300 p-2">
                 <p>
-                    &copy; 2026 Mode. Build for Next.js Sandbox
+                    &copy; <CopyrightYear />  Mode. Build for Next.js Sandbox
                 </p>
             </footer>
         </div>
