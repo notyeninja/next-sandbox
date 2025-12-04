@@ -6,7 +6,10 @@
     "nx": "nx",
     "ticketor": "nx dev ticketor --port 4200",
     "ticketor:prod": "nx start ticketor --port 4200",
-    "ticketor:build": "nx build ticketor"
+    "ticketor:build": "nx build ticketor",
+    "practice": "nx dev study-next --port 4202",
+    "practice:prod": "nx start study-next --port 4202",
+    "practice:build": "nx build study-next"
   },
   "private": true,
   "devDependencies": {
