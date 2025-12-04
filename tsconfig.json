@@ -8,6 +8,12 @@
     },
     {
       "path": "./apps/ticketor"
+    },
+    {
+      "path": "./apps/study-next-e2e"
+    },
+    {
+      "path": "./apps/study-next"
     }
   ]
 }
